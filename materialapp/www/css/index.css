@@ -33,7 +33,7 @@ nav .right > li > a:hover {
 }
 
 /* Contenido de los tabs principales */
-#image-test1, #image-test2, #image-test3 {
+#image-test1, #image-test2, #image-test3,#image-test4, #image-test5, #image-test6 {
     background: #fff;
     margin: 24px auto;
     border-radius: 10px;
@@ -50,7 +50,7 @@ nav .right > li > a:hover {
     .tabs.tabs-fixed-width .tab {
         width: 72px;
     }
-    #image-test1, #image-test2, #image-test3 {
+    #image-test1, #image-test2, #image-test3,#image-test4, #image-test5, #image-test6  {
         font-size: 1rem;
         padding: 12px 0;
     }
@@ -65,7 +65,7 @@ nav .right > li > a:hover {
     .tabs.tab-demo .tab a {
         color: #b388ff;
     }
-    #image-test1, #image-test2, #image-test3 {
+    #image-test1, #image-test2, #image-test3,#image-test4, #image-test5, #image-test6 {
         background: #232138;
         color: #ffeb3b;
     }
