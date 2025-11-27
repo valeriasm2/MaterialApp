@@ -1,0 +1,72 @@
+/* Estilos para la barra de navegación extendida, tabs horizontales, y tab contents de #image-test1, #image-test2, #image-test3 */
+
+nav.nav-extended {
+    background: #673ab7;
+}
+
+nav .right > li > a {
+    color: #d1c4e9;
+}
+nav .right > li > a:hover {
+    color: #fff;
+}
+
+/* Tabs estilos principales */
+.tabs.tab-demo {
+    background: #512da8;
+}
+.tabs.tab-demo .tab a {
+    color: #d1c4e9;
+    text-transform: uppercase;
+}
+.tabs.tab-demo .tab a.active,
+.tabs.tab-demo .tab a:hover {
+    color: #ffeb3b;
+    background: #311b92;
+}
+.tabs.tabs-fixed-width .tab {
+    width: 110px;
+}
+/* Tab iconos dentro de las tabs personalizadas */
+.tabs .tab a .tab-svg-icon svg {
+    fill: #b388ff;
+}
+
+/* Contenido de los tabs principales */
+#image-test1, #image-test2, #image-test3 {
+    background: #fff;
+    margin: 24px auto;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 400px;
+    color: #512da8;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 20px 0;
+}
+
+/* Responsive para mobile */
+@media (max-width: 520px) {
+    .tabs.tabs-fixed-width .tab {
+        width: 72px;
+    }
+    #image-test1, #image-test2, #image-test3 {
+        font-size: 1rem;
+        padding: 12px 0;
+    }
+}
+
+/* Dark mode minimal support solo para barra de navegación, tabs y tabs content */
+@media (prefers-color-scheme: dark) {
+    nav.nav-extended,
+    .tabs.tab-demo {
+        background: #232138;
+    }
+    .tabs.tab-demo .tab a {
+        color: #b388ff;
+    }
+    #image-test1, #image-test2, #image-test3 {
+        background: #232138;
+        color: #ffeb3b;
+    }
+}
